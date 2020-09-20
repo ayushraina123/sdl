@@ -22,6 +22,7 @@ public class client extends Mainmenu
         d.Name = sc.nextLine();
         System.out.println("Enter your mobile number");
         d.MobileNumber = sc.nextLong();
+        sc.nextLine();
         System.out.println("Enter your Address");
         d.Address = sc.nextLine();
         System.out.println("Enter your complaint");

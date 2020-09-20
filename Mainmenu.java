@@ -28,8 +28,6 @@ public class Mainmenu extends Main
             System.out.println("Invalid choice :( Please select a valid choice :).\n");
         }
 
-        sc.close();
-
     }
         
 
