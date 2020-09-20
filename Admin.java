@@ -44,6 +44,10 @@ public class Admin extends adminoptions {
 
         adddep(Id, password);
     }
+    public static void logout(){
+        int nsb = bs.nextSetBit(0);
+        if)
+    }
 
     public static void login() {
         System.out.println("Please enter your ID");

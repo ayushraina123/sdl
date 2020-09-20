@@ -6,7 +6,8 @@ public class adminoptions
     public static void display() 
     {
         System.out.println("1. Sign Up");
-        System.out.println("2.Login");
+        System.out.println("2. Login");
+        System.out.println("3. Logout");
         int ch = sc.nextInt();
         
         switch(ch)
@@ -16,6 +17,9 @@ public class adminoptions
             break;
 
             case 2: Admin.login();
+
+            break;
+            case 3: Admin.logout();
 
             break;
 
